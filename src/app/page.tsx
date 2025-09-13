@@ -17,7 +17,7 @@ export default function Home() {
         </p>
         <div className="mt-8 flex items-center justify-center gap-4">
           <PixelButton href="/projects">PRESS START</PixelButton>
-          <PixelButton className="bg-cyan text-cabinet" href="/contact">
+          <PixelButton className="bg-cyan text-cabinet" href="/hire">
             INSERT COIN
           </PixelButton>
         </div>
