@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HUD from "@/components/HUD";
 import { Analytics } from "@vercel/analytics/next";
+import Preloader from "@/components/Preloader";
 
 export const metadata: Metadata = {
   title: "Simonlinn.com — Pixel-perfect frontend portfolio",
@@ -31,6 +32,8 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body bg-cabinet text-pixel">
+        <Preloader />
+
         <div className="bg-grid bg-grid-size-grid min-h-dvh flex flex-col">
           <Header />
           <HUD />
