@@ -61,7 +61,9 @@ export default function About() {
               </a>
             </div>
             <p className="font-arcade text-lg text-cyan mt-4">SAW SIMON LINN</p>
-            <p className="text-xs text-pixel/80">Frontend Developer</p>
+            <p className="text-xs text-pixel/80">
+              Frontend Developer / Designer
+            </p>
           </div>
 
           <div className="md:w-2/3 space-y-4 text-sm">
