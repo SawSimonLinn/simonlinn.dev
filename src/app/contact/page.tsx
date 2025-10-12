@@ -26,7 +26,7 @@ export default function Contact() {
             </a>
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-pixel/70">LinedIn:</span>
+            <span className="text-pixel/70">LinkedIn:</span>
             <a
               className="text-cyan underline hover:text-magenta transition-colors"
               href="https://www.linkedin.com/in/sawsimonlinn/"
