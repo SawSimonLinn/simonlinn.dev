@@ -4,14 +4,20 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
+import {
+  FolderKanban,
+  History,
+  User,
+  MessagesSquare,
+  Mail,
+} from "lucide-react";
 
 const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/projects", label: "Projects" },
-  { href: "/work-history", label: "History" },
-  { href: "/about", label: "About" },
-  { href: "/testimonials", label: "Testimonials" },
-  { href: "/contact", label: "Contact" },
+  { href: "/projects", label: "Projects", Icon: FolderKanban },
+  { href: "/work-history", label: "History", Icon: History },
+  { href: "/about", label: "About", Icon: User },
+  { href: "/testimonials", label: "Testimonials", Icon: MessagesSquare },
+  { href: "/contact", label: "Contact", Icon: Mail },
 ];
 
 export default function Header() {
@@ -68,35 +74,21 @@ export default function Header() {
       {/* Mobile bottom nav */}
       <nav
         className={cn(
-          "fixed bottom-0 left-0 right-0 z-40 md:hidden bg-cabinet border-t-2 border-screen shadow-[0_-4px_0_theme(colors.screen)] transition-transform duration-200",
+          "fixed bottom-0 left-0 right-0 z-40 pb-2 md:hidden bg-cabinet border-t-2 border-screen shadow-[0_-4px_0_theme(colors.screen)] transition-transform duration-200",
           showBottomNav ? "translate-y-0" : "translate-y-full"
         )}
       >
-        <div className="grid grid-cols-3 text-center">
-          {navLinks.slice(0, 3).map(({ href, label }) => (
+        <div className="grid grid-cols-5 text-center">
+          {navLinks.map(({ href, label, Icon }) => (
             <Link
               key={href}
               href={href}
               className={cn(
-                "py-3 font-arcade text-[11px] uppercase tracking-widest block transition-colors hover:text-cyan",
+                "py-3 transition-colors hover:text-cyan flex flex-col items-center gap-1",
                 pathname === href ? "text-cyan" : "text-pixel"
               )}
             >
-              {label}
-            </Link>
-          ))}
-        </div>
-        <div className="grid grid-cols-3 text-center border-t-2 border-screen">
-          {navLinks.slice(3).map(({ href, label }) => (
-            <Link
-              key={href}
-              href={href}
-              className={cn(
-                "py-3 font-arcade text-[11px] uppercase tracking-widest block transition-colors hover:text-cyan",
-                pathname === href ? "text-cyan" : "text-pixel"
-              )}
-            >
-              {label}
+              <Icon className="w-5 h-5" />
             </Link>
           ))}
         </div>
