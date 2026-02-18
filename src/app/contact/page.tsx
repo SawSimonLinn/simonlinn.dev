@@ -5,10 +5,9 @@ import ClipboardCopy from "@/components/ClipboardCopy";
 export default function Contact() {
   return (
     <main className="max-w-xl mx-auto px-4 py-16 md:py-24 crt">
-      <ArcadeWindow title="CONTACT INSERT COIN">
+      <ArcadeWindow title="CONTACT">
         <p className="text-sm">
-          For freelance or roles: a quick call or DM works great. Have an idea?
-          Press Start.
+          Contract work or roles: reach out by email or DM and we can plan the build.
         </p>
         <ul className="mt-4 space-y-3 text-sm">
           <li>
@@ -55,6 +54,14 @@ export default function Contact() {
             href="mailto:sawsimonlinn@gmail.com"
           >
             SEND MESSAGE
+          </PixelButton>
+          <PixelButton
+            className="bg-up text-cabinet"
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DOWNLOAD RESUME
           </PixelButton>
           <PixelButton href="/projects">VIEW WORK</PixelButton>
         </div>

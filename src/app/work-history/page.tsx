@@ -25,6 +25,17 @@ const workHistory = [
     ],
   },
   {
+    role: "Software Engineer Intern",
+    company: "Nailbox AI",
+    period: "3-month internship",
+    tasks: [
+      "Built frontend features and backend endpoints to support construction workflow tracking.",
+      "Researched RFI/submittal tracking to know who has ball-in-court and when a final version is reached.",
+      "Prototyped an LLM pipeline to read email threads/documents, map them to the correct RFI/submittal version, and identify current responsibility.",
+      "Collaborated in a small team to ship quickly and validate AI-assisted operations.",
+    ],
+  },
+  {
     role: "Content Creator",
     company: "Instagram, TikTok, Facebook, YouTube",
     period: "Apr 2023 - Present",

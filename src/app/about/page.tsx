@@ -24,6 +24,7 @@ const techStack = {
   Backend: [
     "Node.js",
     "Express",
+    "Python",
     "MongoDB",
     "REST APIs",
     "JWT auth",
