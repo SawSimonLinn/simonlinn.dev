@@ -34,7 +34,7 @@ export default function RootLayout({
       <body className="font-body bg-cabinet text-pixel">
         <Preloader />
 
-        <div className="bg-grid bg-grid-size-grid min-h-dvh flex flex-col">
+        <div className="bg-grid bg-grid-size-grid min-h-dvh flex flex-col pb-16 md:pb-0">
           <Header />
           <HUD />
           <div className="relative z-10 flex-grow">{children}</div>
