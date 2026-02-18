@@ -92,6 +92,32 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "koios-marketplace",
+    title: "Koios Marketplace",
+    tags: ["React", "Next.js", "TypeScript", "Node.js", "Microservices", "AWS"],
+    desc: "Marketplace platform shipping weekly features across frontend and microservices.",
+    longDesc:
+      "Koios Marketplace is a fast-moving startup platform where I own tickets end to end: plan with PMs, design flows, build React/Next.js UI, and wire to Node microservices. I also handle testing (Jest + E2E) and code reviews to keep quality high.",
+    hrefDemo: "https://www.koiosmarket.com",
+    images: [],
+    coverImage: "/cover/koiosmarketplace.png",
+    challenges: [
+      "Coordinating rapid feature work between frontend and microservices without regressions.",
+      "Keeping UI resilient to evolving service contracts.",
+      "Maintaining release quality with tight timelines.",
+    ],
+    learnings: [
+      "Ticket breakdown and sprint planning in a small team.",
+      "Service-first UI integration patterns.",
+      "Pragmatic testing balance between unit and E2E.",
+    ],
+    outcomes: [
+      "Shipped weekly iterations without major rollbacks.",
+      "Reduced integration bugs by tightening contract checks.",
+      "Improved developer speed with reusable UI patterns.",
+    ],
+  },
+  {
     slug: "arcade-portfolio",
     title: "Arcade Portfolio",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
