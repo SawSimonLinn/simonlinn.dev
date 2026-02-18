@@ -74,7 +74,7 @@ export default function Header() {
       {/* Mobile bottom nav */}
       <nav
         className={cn(
-          "fixed bottom-0 left-0 right-0 z-40 pb-2 md:hidden bg-cabinet border-t-2 border-screen shadow-[0_-4px_0_theme(colors.screen)] transition-transform duration-200",
+          "fixed bottom-0 left-0 right-0 z-40 md:hidden bg-cabinet border-t-2 border-screen shadow-[0_-4px_0_theme(colors.screen)] transition-transform duration-200",
           showBottomNav ? "translate-y-0" : "translate-y-full"
         )}
       >
