@@ -9,9 +9,7 @@ export default function HireMePage() {
       {/* Intro */}
       <div className="animate-pop" style={{ animationDelay: "0.1s" }}>
         <p className="text-xs sm:text-sm max-w-2xl leading-relaxed">
-          I'm Simon — a fullstack engineer and designer who builds
-          arcade-inspired web apps for real businesses. Whether you're launching
-          a startup or need a small site with big energy, I'm your player one.
+          I'm Simon - a software/design engineer with 2+ years shipping production features at a fast-paced startup. I handle tickets end-to-end: plan, design UI/UX, build, test, and ship React/Next.js frontends backed by microservices.
         </p>
       </div>
 
@@ -31,7 +29,7 @@ export default function HireMePage() {
           <h2 className="text-base text-cyan mb-2 uppercase">Tech Stack</h2>
           <p className="text-xs">
             React, Next.js, TypeScript, Tailwind, Node.js, Appwrite, Firebase,
-            MongoDB, Vercel, Resend
+            MongoDB, Zod, JWT, AWS, Docker, Yarn, tsup, Bitbucket Pipelines, Vercel, Resend, ESLint
           </p>
         </div>
       </div>
@@ -44,15 +42,15 @@ export default function HireMePage() {
           </h2>
           <ul className="list-disc pl-5 text-xs space-y-1">
             <li>
-              <strong>Custom Franchise SaaS Platform</strong> – 5000+ sushi
+              <strong>Custom Franchise SaaS Platform</strong> - 5000+ sushi
               franchises, 600+ staff, dashboards & analytics
             </li>
             <li>
-              <strong>Table Order System</strong> – POS + dev fee logic for a
+              <strong>Table Order System</strong> - POS + dev fee logic for a
               local coffee shop
             </li>
             <li>
-              <strong>Food-Tech Startup</strong> – focused on modernizing food
+              <strong>Food-Tech Startup</strong> - focused on modernizing food
               ops & customer UX
             </li>
           </ul>
@@ -67,11 +65,11 @@ export default function HireMePage() {
           </h2>
           <ul className="list-disc pl-5 text-xs space-y-1">
             <li>
-              <strong>Nomis.Life</strong> – a portfolio + skill tracker platform
+              <strong>Nomis.Life</strong> - a portfolio + skill tracker platform
               for junior developers
             </li>
             <li>
-              <strong>BizBoost Dashboard</strong> – franchise performance
+              <strong>BizBoost Dashboard</strong> - franchise performance
               tracker with revenue insights
             </li>
           </ul>
@@ -83,9 +81,7 @@ export default function HireMePage() {
         <div className="animate-pop" style={{ animationDelay: "0.1s" }}>
           <h2 className="text-base text-danger mb-2 uppercase">Why Me?</h2>
           <p className="text-xs leading-relaxed">
-            I've designed for 7+ years, built fullstack tools, and worked
-            12-hour shifts while studying code at night. When I build something,
-            it's fast, clean, and business-ready.
+            2+ years of startup experience shipping weekly. I break down tickets with PMs, brainstorm with design, build microservices and Next.js UI, add Jest/unit + E2E coverage, and review teammate PRs to keep quality high.
           </p>
         </div>
       </div>
@@ -95,7 +91,7 @@ export default function HireMePage() {
           href="mailto:sawsimonelinn@gmail.com"
           className="inline-block bg-magenta text-pixel text-xs font-bold px-4 py-2 rounded-pixel shadow-pixel hover:scale-105 transition-all animate-wobble"
         >
-          🎮 LET'S WORK TOGETHER
+          LET'S WORK TOGETHER
         </a>
 
         <p className="text-xs text-cyan">

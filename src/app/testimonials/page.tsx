@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: "Ei Mon Kyaing",
     company: "UX Specialist, Creative Flow",
-    quote: "Every time I work with Simon, I’m reminded of his creativity and dedication. He’s not just skilled—he’s passionate.",
+    quote: "Every time I work with Simon, I’m reminded of his creativity and dedication. He’s not just skilled - he’s passionate.",
     rating: 5,
   },
   {

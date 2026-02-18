@@ -9,13 +9,11 @@ export default function Home() {
         <h1 className="font-arcade text-2xl md:text-3xl">
           SAW SIMON LINN
           <br />
-          <span className="text-cyan">FRONTEND</span>{" "}
-          <span className="text-magenta">DEVELOPER</span>
+          <span className="text-cyan">SOFTWARE</span>{" "}
+          <span className="text-magenta">ENGINEER</span>
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-sm md:text-base">
-          I build fast, playful, design-driven web apps using React, Next.js,
-          and Tailwind. From franchise dashboards to portfolio generators — I
-          solve real problems with code.
+          Software engineer with 2+ years in a fast-paced startup, focusing on React/Next.js frontends and Node microservices, backed by tests and tight product collaboration.
         </p>
         <div className="mt-8 flex items-center justify-center gap-4">
           <PixelButton href="/projects">PRESS START</PixelButton>
@@ -30,7 +28,6 @@ export default function Home() {
         <ArcadeWindow title="LATEST RUN">
           <ul className="grid md:grid-cols-3 gap-4 text-sm">
             <li>
-              🚀{" "}
               <a
                 href="https://nomis.life"
                 target="_blank"
@@ -41,7 +38,6 @@ export default function Home() {
               </a>
             </li>
             <li>
-              📊{" "}
               <a
                 href="https://biz-boost-five.vercel.app/"
                 target="_blank"
@@ -52,7 +48,6 @@ export default function Home() {
               </a>
             </li>
             <li>
-              ⭐{" "}
               <a
                 href="https://www.develevate.pro/about"
                 target="_blank"
@@ -64,19 +59,16 @@ export default function Home() {
             </li>
             {/* hide the button 3 in mobile */}
             <li className="hidden md:block">
-              🍣{" "}
               <span className="text-pixel/70  ">
                 Building: Franchise SaaS for 5000+ Locations
               </span>
             </li>
             <li className="hidden md:block">
-              🍜{" "}
               <span className="text-pixel/70  ">
                 Startup: Food-Tech Platform (Coming Soon)
               </span>
             </li>
             <li className="hidden md:block">
-              🔧{" "}
               <a
                 href="https://bluebirdhaus.online"
                 target="_blank"

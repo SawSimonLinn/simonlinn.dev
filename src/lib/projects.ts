@@ -98,8 +98,8 @@ export const projects: Project[] = [
     desc: "An arcade-themed developer portfolio showcasing projects with playful animations.",
     longDesc:
       "This portfolio features a retro pixel-art design, dynamic project pages, and a responsive layout. Built with Next.js, TypeScript, and Tailwind CSS, it utilizes Framer Motion for smooth animations and transitions.",
-    hrefDemo: "https://simonlinn.com/",
-    hrefCode: "https://github.com/SawSimonLinn/simonlinn.com",
+    hrefDemo: "https://simonlinn.dev/",
+    hrefCode: "https://github.com/SawSimonLinn/simonlinn.dev",
     images: [
       "/projects/project_11.png",
       "/projects/project_11a.png",
@@ -369,7 +369,7 @@ export const projects: Project[] = [
     ],
     desc: "Drive-like file storage app with uploads, preview, and delete.",
     longDesc:
-      "A Google Drive–style app using Appwrite for auth, DB, and storage. Users can upload/manage files, preview assets, and control access. Built with a clean, responsive UI.",
+      "A Google Drive-style app using Appwrite for auth, DB, and storage. Users can upload/manage files, preview assets, and control access. Built with a clean, responsive UI.",
     hrefDemo: "https://drivio.sawsimonlinn.com",
     hrefCode: "https://github.com/SawSimonLinn/google-drive-clone",
     images: [
@@ -434,7 +434,7 @@ export const projects: Project[] = [
     desc: "Movie explorer with TMDB data and Appwrite auth.",
     longDesc:
       "A modern movie explorer using the TMDB API for live data. Includes user auth with Appwrite, dynamic routes, responsive design, and custom components.",
-    hrefDemo: "https://simonlinn.com/",
+    hrefDemo: "https://simonlinn.dev/",
     hrefCode: "https://github.com/SawSimonLinn/jsm_movie_app",
     images: [
       "/projects/project_9.png",

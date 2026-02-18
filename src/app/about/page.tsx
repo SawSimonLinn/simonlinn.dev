@@ -4,11 +4,11 @@ import PixelButton from "@/components/PixelButton";
 import { Check } from "lucide-react";
 
 const whatIBring = [
+  "Self-driven learner: picked up Craft.js and custom customer-service apps on my own time to unblock the team.",
   "A sharp eye for UI/UX, refined over 6+ years in graphic design.",
-  "Modern frontend skills in React, Next.js, and TypeScript.",
+  "Startup-honed builder: design Figma flows myself, create internal tools, and ship the frontend end to end.",
+  "Modern frontend skills in React, Next.js, and TypeScript (plus backend integrations when needed).",
   "Full-stack experience with a passion for building great user interfaces.",
-  "Discipline and focus, honed from years of experience as a chef.",
-  "A collaborative spirit, eager to build products that make an impact.",
 ];
 
 const techStack = {
@@ -19,10 +19,26 @@ const techStack = {
     "TypeScript",
     "HTML & CSS",
     "Tailwind CSS",
+    "Zod (schema validation)",
   ],
-  Backend: ["Node.js", "Express", "MongoDB", "REST APIs"],
+  Backend: [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "REST APIs",
+    "JWT auth",
+    "Internal tools & service integration",
+  ],
   Tools: [
-    "Git & GitHub",
+    "Yarn",
+    "Git (GitHub & Bitbucket)",
+    "Bitbucket Pipelines",
+    "AWS",
+    "Docker",
+    "tsup (bundling)",
+    "Nexus (artifact registry)",
+    "Sharetribe",
+    "ESLint / npmrc config",
     "Figma",
     "Postman",
     "Vercel & Netlify",
@@ -41,7 +57,7 @@ const techStack = {
 export default function About() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-16 md:py-24 crt">
-      <ArcadeWindow title="PLAYER 1 — PROFILE">
+      <ArcadeWindow title="PLAYER 1 PROFILE">
         <div className="md:flex md:gap-8">
           <div className="md:w-1/3 text-center mb-8 md:mb-0">
             <div className="inline-block p-2 bg-cabinet pixel-border">
@@ -62,26 +78,19 @@ export default function About() {
             </div>
             <p className="font-arcade text-lg text-cyan mt-4">SAW SIMON LINN</p>
             <p className="text-xs text-pixel/80">
-              Frontend Developer / Designer
+              Software Engineer / Design Engineer
             </p>
           </div>
 
           <div className="md:w-2/3 space-y-4 text-sm">
             <p>
-              I’m Simon, a frontend developer with a background in design and
-              video editing. I’ve built fullstack projects like a restaurant
-              ordering app with an admin menu panel and a franchise performance
-              dashboard using React, Next.js, and Appwrite.
+              I’m Simon, a software + design engineer with 2+ years delivering production features at a venture-backed startup. I work across the stack with React/Next.js and Node microservices.
             </p>
             <p>
-              With my design background, I like to build clean, easy-to-use web
-              apps that people actually enjoy. Outside of coding, I love design
-              challenges and finding creative solutions.
+              Day to day I break down tickets, design and build the UI/UX myself, collaborate with PMs, build services, wire them into the frontend, and cover the work with unit (Jest) and E2E tests before code review.
             </p>
             <p>
-              Right now, I’m looking for frontend developer opportunities where
-              I can bring both my technical skills and design eye to a
-              fast-moving team.
+              I’m looking for roles where I can keep shipping quickly while collaborating tightly with product teams.
             </p>
           </div>
         </div>

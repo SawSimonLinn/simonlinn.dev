@@ -36,7 +36,7 @@ export default function Header() {
             href="/"
             className="font-arcade text-lg text-cyan hover:text-magenta transition-colors"
           >
-            Simonlinn.com
+            Simonlinn.dev
           </Link>
           <div className="hidden md:flex items-center space-x-4">
             {navLinks.map(({ href, label }) => (

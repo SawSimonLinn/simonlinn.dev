@@ -8,8 +8,8 @@ import { Analytics } from "@vercel/analytics/next";
 import Preloader from "@/components/Preloader";
 
 export const metadata: Metadata = {
-  title: "Simonlinn.com — Pixel-perfect frontend portfolio",
-  description: "Pixel-perfect frontend portfolio",
+  title: "Simonlinn.dev - Software & Design Engineer Portfolio",
+  description: "Portfolio of a software/design engineer building UI/UX end to end",
 };
 
 export default function RootLayout({

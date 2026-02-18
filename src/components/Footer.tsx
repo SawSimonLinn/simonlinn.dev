@@ -11,7 +11,7 @@ export default function Footer() {
 
     return (
         <footer className="w-full py-6 text-center font-arcade text-[10px] text-pixel/60">
-            <p className="animate-blink">© {year} Simonlinn.com — Built with Next.js + Tailwind. Insert Coin to Continue.</p>
+            <p className="animate-blink">© {year} Simonlinn.dev - Built with Next.js + Tailwind. Insert Coin to Continue.</p>
         </footer>
     );
 }

@@ -5,7 +5,7 @@ import ClipboardCopy from "@/components/ClipboardCopy";
 export default function Contact() {
   return (
     <main className="max-w-xl mx-auto px-4 py-16 md:py-24 crt">
-      <ArcadeWindow title="CONTACT — INSERT COIN">
+      <ArcadeWindow title="CONTACT INSERT COIN">
         <p className="text-sm">
           For freelance or roles: a quick call or DM works great. Have an idea?
           Press Start.
@@ -18,11 +18,11 @@ export default function Contact() {
             <span className="text-pixel/70">Website:</span>
             <a
               className="text-cyan underline hover:text-magenta transition-colors"
-              href="https://sawsimonlinn.com"
+              href="https://sawsimonlinn.dev"
               target="_blank"
               rel="noopener noreferrer"
             >
-              sawsimonlinn.com
+              sawsimonlinn.dev
             </a>
           </li>
           <li className="flex items-center gap-2">

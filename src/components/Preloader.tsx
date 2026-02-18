@@ -19,7 +19,7 @@ export default function Preloader() {
   return (
     <div className="fixed inset-0 z-50 bg-black grid place-items-center text-pixel font-arcade text-center">
       <div className="space-y-4">
-        <p className="text-xl">🎮 Loading...</p>
+        <p className="text-xl">Loading...</p>
         <p className="text-2xl animate-pulse">PRESS START</p>
         <div className="w-40 h-2 bg-gray-700 mx-auto mt-4 relative overflow-hidden rounded">
           <div className="absolute h-full w-1/3 bg-pink-500 animate-loading-bar" />

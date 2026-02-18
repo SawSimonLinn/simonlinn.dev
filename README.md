@@ -1,9 +1,9 @@
-# Simon Linn — Arcade-Style Portfolio 🎮
+# Simon Linn - Arcade-Style Portfolio
 
 This is my personal developer portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
 The theme is inspired by retro arcade / pixel art aesthetics. It showcases my projects, work history, and experiments.
 
-## 🚀 Features
+## Features
 
 - Arcade-inspired design with pixel-art styled project covers
 - Fully responsive and mobile-friendly
@@ -12,7 +12,7 @@ The theme is inspired by retro arcade / pixel art aesthetics. It showcases my pr
 - SEO-optimized and fast builds with Next.js
 - CI/CD via Vercel
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - [Next.js 15](https://nextjs.org/)
 - [React 18](https://react.dev/)
@@ -22,7 +22,7 @@ The theme is inspired by retro arcade / pixel art aesthetics. It showcases my pr
 - [Appwrite](https://appwrite.io/) (backend for some apps)
 - [Resend](https://resend.com/) (email)
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -32,23 +32,23 @@ src/
   public/           # Static assets (covers, profile, pixel art)
 ```
 
-## 🖼 Demo
+## Demo
 
-🌐 [Live Demo](https://simonlinn.com)
+[Live Demo](https://simonlinn.dev)
 
-## 📸 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="./public/readme.png"/>
 </p>
 
-## 🔧 Installation
+## Installation
 
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/SawSimonLinn/simonlinn.com.git
-cd simonlinn.com
+git clone https://github.com/SawSimonLinn/simonlinn.dev.git
+cd simonlinn.dev
 npm install
 ```
 
@@ -70,6 +70,6 @@ Deploy with Vercel:
 vercel
 ```
 
-## 📜 License
+## License
 
 This project is open source under the MIT License.
